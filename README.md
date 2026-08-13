@@ -1,3 +1,5 @@
+
+
 # Rusty Kindle
 
 My personal standalone kindle dashboard made using rust.
@@ -31,9 +33,9 @@ We have three things we needs to configure for all the information in the dashbo
 
 1. **ICS Calendars** ~~Google calendar~~ - You can export your google calendars as ics urls (Calendar Settings -> Integrate calendar -> Secret address in iCal format). Save them to sensitive/calendars.json as ```{"urls": ["<eg url>", ...]}```
 
-3. **OpenWeatherMap** - Create an [API](https://openweathermap.org/api) account. Save the api token in sensitive/openweatherkey.json as ```{"key":"MYKEY"}```
+2. **OpenWeatherMap** - Create an [API](https://openweathermap.org/api) account. Save the api token in sensitive/openweatherkey.json as ```{"key":"MYKEY"}```
 
-4. **Bom radar location** - Save the bom weather station (eg, IDR713 for Sydney) in sensitive/bom.json as ```{"station": "STATIONID"}```
+3. **Bom radar location** - Save the bom weather station (eg, IDR713 for Sydney) in sensitive/bom.json as ```{"station": "STATIONID"}```
 
 ### Moving
 
